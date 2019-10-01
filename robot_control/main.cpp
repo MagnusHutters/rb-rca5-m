@@ -5,8 +5,27 @@
 #include <opencv2/opencv.hpp>
 
 #include <iostream>
+#include "Vector.h"
 
 static boost::mutex mutex;
+
+
+
+
+
+class LineSegment{
+	public:
+		
+	
+	
+	private:
+	
+	
+	
+	
+}
+
+
 
 void statCallback(ConstWorldStatisticsPtr &_msg) {
   (void)_msg;
